@@ -24,4 +24,17 @@ public class TestMystack {
         mystack.push('d');
         assertEquals('d',mystack.pop());
     }
+
+    @Test
+    void testsize(){
+        while (mystack.size() != 0) {
+            mystack.pop();
+        }
+
+        mystack.push('e');
+        mystack.push('f');
+        mystack.push('g');
+
+        assertEquals(3,mystack.size());
+    }
 }
