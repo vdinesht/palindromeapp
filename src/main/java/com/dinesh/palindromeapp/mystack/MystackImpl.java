@@ -5,7 +5,7 @@ public class MystackImpl<T> implements Mystack<T>{
     private int count;
     private T store;
 
-    MystackImpl(){
+    public MystackImpl(){
         count = 0;
     }
     @Override
