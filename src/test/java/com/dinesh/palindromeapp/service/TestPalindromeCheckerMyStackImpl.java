@@ -21,6 +21,7 @@ public class TestPalindromeCheckerMyStackImpl{
 
         assertTrue(palindromeChecker.IsPalindrome("aaaaa"));
         assertFalse(palindromeChecker.IsPalindrome("dinesh"));
+        assertTrue(palindromeChecker.IsPalindrome("rotator"));
     }
 
     @Test

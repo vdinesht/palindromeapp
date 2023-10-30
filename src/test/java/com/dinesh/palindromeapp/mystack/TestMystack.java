@@ -37,4 +37,11 @@ public class TestMystack {
 
         assertEquals(3,mystack.size());
     }
+
+    @Test
+    void testpushandpop(){
+        mystack.push('d');
+        mystack.push('e');
+        assertEquals('e', mystack.pop());
+    }
 }
